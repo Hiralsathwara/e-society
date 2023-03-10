@@ -1,0 +1,122 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(1.png);
+    height:109vh;
+    background-size: cover;
+    background-position:center;
+
+}
+header
+{
+    text-align: center;
+    background-color:Rgba(0,0,0,.5) ;
+    height: 70px;
+    margin-top: 20px;
+}
+header div .head
+{
+    color: #1eb1cb;
+    padding-top: 15px;
+    font-family:Comic Sans MS ;
+    font-size: 30px;
+}
+
+.content
+{
+    width: 1000px;
+    color: aliceblue;
+   text-align: left;
+   padding-bottom: 100px;
+
+}
+.Login-Box {
+    Position: Absolute;
+    Top: 50%;
+    Left: 50%;
+    Width: 400px;
+    Padding: 40px;
+    Transform: Translate(-50%, -50%);
+    Background: Rgba(0,0,0,.5);
+    Box-Sizing: Border-Box;
+    Box-Shadow: 0 15px 25px Rgba(0,0,0,.6);
+    Border-Radius: 10px;
+}
+.Login-Box H2 
+{
+    Margin: 0 0 30px;
+    Padding: 0;
+    Color: #Fff;
+    Text-Align: Center;
+}
+.Login-Box .User-Box
+{
+    Position: Relative;
+}
+.Login-Box .User-Box Input
+{
+    Width: 100%;
+    Padding: 25px 0;
+    Font-Size: 16px;
+    Color: #Fff;
+    Margin-Bottom: 10px;
+    Border: None;
+    Border-Bottom: 1px Solid #Fff;
+    Outline: None;
+    Background: Transparent;
+}
+.Login-Box .User-Box label
+{
+    Position: Absolute;
+    Top:0;
+    Left: 0;
+    Padding: -10px 0;
+    Font-Size: 16px;
+    Color: #Fff;
+    Pointer-Events: None;
+    Transition: .5s;
+}
+    
+.Login-Box Form .d 
+{
+    Position: Relative;
+    Display: Inline-Block;
+    Padding: 10px 20px;
+    Color: #03e9f4;
+    Font-Size: 16px;
+    Text-Decoration: None;
+    Text-Transform: Uppercase;
+    Overflow: Hidden;
+    Transition: .5s;
+    Margin-Top: 40px;
+    Letter-Spacing: 4px
+    
+}
+.Login-Box .d:hover 
+{
+    Background: #03e9f4;
+    Color: #Fff;
+    Border-Radius: 5px;
+    Box-Shadow: 0 0 5px #03e9f4,
+}
+.Login-Box .p
+{
+    color: #Fff;
+    margin-top: 10px;
+}
+.Login-Box .a
+{
+    color: #03e9f4;
+    text-decoration: underline;
+}
+    
+
+   
+
+    

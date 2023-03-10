@@ -1,0 +1,44 @@
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(2.jpg);
+    height:109vh;
+    background-size: cover;
+    background-position:center;
+}
+h2
+{
+   text-align: center;
+   padding-top: 100px;
+   color: wheat;
+}
+table
+{
+    border: 10px solid rgb(9, 130, 171);
+    border-radius: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+table td
+{
+    font-size: 20px;
+    color: #Fff;
+}
+table td input
+{
+    width:300px ;
+}
+table tr td a
+{
+   text-decoration: none;
+   padding: 10px 10px 10px 10px; 
+   color: white;
+}    
+table tr td a:hover
+{
+    Background: rgb(9, 130, 171);
+    Color: #Fff;
+    Border-Radius: 5px;
+    Box-Shadow: 0 0 5px #03e9f4,
+}

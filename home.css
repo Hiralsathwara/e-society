@@ -1,0 +1,108 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header
+{
+    background-color: rgb(72,72,72);
+    height: 70px;
+}
+.logo
+{
+    color: #1eb1cb;
+    padding-left: 60px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+ul
+{
+    float: right;
+    
+}
+li
+{
+    display: inline-block;
+    list-style: none;
+    padding-right: 50px;
+}
+a
+{
+    text-decoration: none;
+    color:#1eb1cb ;
+}
+a:hover
+{
+    color: rgb(245, 228, 206);
+}
+
+.details
+{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+}
+.container
+{
+
+    position: relative;
+    width:1200px;
+    height:300px;
+    margin-top: 10px ;
+    margin-bottom: 100px;
+    margin-left: 40px;
+}
+.container .box
+{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(200px - 30px);
+    background-color: deepskyblue;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius:10px ;
+}
+.container .box .content
+{
+    text-align: center;
+    padding-top: 50px;
+}
+.container .box .content h3
+{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container .box .content p
+{
+    font-size:25px;
+    padding-top: 15px;
+}
+.container .box:hover
+{
+    transform: translate(10px,-10px);
+}
+
+.r
+{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.rules
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: lightblue;
+}
+pre
+{
+    padding-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+} 
+
+

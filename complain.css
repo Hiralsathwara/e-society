@@ -1,0 +1,102 @@
+*
+{
+    margin: 0px;
+}
+
+header
+{
+    background:linear-gradient(rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    height: 70px;
+}
+ul
+{
+    float: right;
+    
+}
+li
+{
+    display: inline-block;
+    list-style: none;
+    padding-right: 50px;
+    padding-top: -50px;
+}
+a
+{
+    text-decoration: none;
+    color:#1eb1cb ;
+}
+a:hover
+{
+    color: rgb(245, 228, 206);
+}
+.logo
+{
+    color: #1eb1cb;
+    padding-left: 60px;
+    padding-top: 15px;
+    font-size: 30px;
+}
+.complain
+{
+    background-color: rgb(211, 214, 216);
+    height: 100%;
+    width: 100%;
+}
+.complain h2
+{
+   padding-left: 70px;
+   padding-top: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight:normal;
+   color:rgb(66, 70, 74);
+}
+form
+{
+    background-color: white;
+    margin-left: 70px;
+    margin-top: 25px;
+    margin-right: 70px;
+    height:70%
+    
+}
+form h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+form label
+{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+form div
+{
+    padding-left: 20px;
+}
+form div .j
+{
+    width: 90%;
+    height: 8%;
+}
+form div .i
+{
+    width: 90%;
+    height: 50%;
+}
+.btn
+{
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 5px;
+    width: 55px;
+    background-color: rgb(31, 81, 255);
+    border: 1px solid rgb(31, 81, 255);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
